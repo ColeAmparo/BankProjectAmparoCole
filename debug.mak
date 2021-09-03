@@ -1,3 +1,4 @@
+//Uses clean to make sure that the next the project is ran, it will be in DEBUG mode.
 clean:
 	rm user_interface.o llist.o
 	g++ -DDEBUG -ansi -pedantic-errors -Wall -c llist.cpp
