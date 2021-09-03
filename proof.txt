@@ -1,0 +1,15 @@
+Script started on Sat 05 Dec 2020 01:35:45 PM HST
+]0;camparo@uhx02:~/project2[?1034huhx02:/home/c/camparo/project2% make -f release.mak
+rm user_interface.o llist.o
+g++ -ansi -pedantic-errors -Wall -c llist.cpp
+g++ -ansi -pedantic-errors -Wall -c user_interface.cpp
+g++ -o project llist.o user_interface.o
+]0;camparo@uhx02:~/project2uhx02:/home/c/camparo/project2% make -f debug.mak
+rm user_interface.o llist.o
+g++ -DDEBUG -ansi -pedantic-errors -Wall -c llist.cpp
+g++ -DDEBUG -ansi -pedantic-errors -Wall -c user_interface.cpp
+g++ -DDEBUG -o project_debug llist.o user_interface.o
+]0;camparo@uhx02:~/project2uhx02:/home/c/camparo/project2% exit
+exit
+
+Script done on Sat 05 Dec 2020 01:36:02 PM HST

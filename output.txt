@@ -1,0 +1,517 @@
+Script started on Sat 05 Dec 2020 01:37:07 PM HST
+]0;camparo@uhx02:~/project2[?1034huhx02:/home/c/camparo/project2% ./project_debgu[K[Kug
+
+Pick one of the following options to add, print, find or delete bank Records.
+
+
+To pick an option, please type the option name.
+
+Add: Add a new record in the database
+Print: Print all records in the database
+Find: Find record(s) with a specified account number
+Delete: Delete existing records(s) from the database using the account number as a key
+Quit: Quit the program
+
+Enter the name of an option:
+add 
+To add a new record, please enter the account number:
+123123
+
+Next please enter your Given name and last name:
+Cole Amparo
+
+Last, please enter your address, and type * then press enter to confirm
+WARNING: Please make sure address is less than 80 charecters
+if address is over 80, charecters over the limit will be left off the record
+Kapolei
+* Hw awaii
+*
+
+*** THIS IS IN DEBUG MODE ***
+
+*** The function addRecord when called will add a new record with the ***
+*** parameters: account number, name, address, and pointer of *struct record ***
+*** This is the inputed information to create the record with***
+*** Account Number: 123123 ***
+*** Name: Cole Amparo***
+*** Address: Kapolei
+Hawaii***
+
+
+To pick an option, please type the option name.
+
+Add: Add a new record in the database
+Print: Print all records in the database
+Find: Find record(s) with a specified account number
+Delete: Delete existing records(s) from the database using the account number as a key
+Quit: Quit the program
+
+Enter the name of an option:
+delete
+To delete your records please enter your account number:
+123123
+
+*** THIS IS DEBUG MODE ***
+*** deleteRecords was called, deletes the record with the inputed Account Number ***
+*** the parameters are the Account Number, and the record ***
+*** Account Number: 123123***
+
+
+To pick an option, please type the option name.
+
+Add: Add a new record in the database
+Print: Print all records in the database
+Find: Find record(s) with a specified account number
+Delete: Delete existing records(s) from the database using the account number as a key
+Quit: Quit the program
+
+Enter the name of an option:
+find
+
+To find a record, please enter your account number:
+123123
+
+*** THIS IS DEBUG MODE *** 
+*** findRecords was called, which looks for a record with the inputed Account Number***
+*** The parameters are: the Account Number, and the pointer of the inputed record***
+*** Account Number: 123123***
+
+
+To pick an option, please type the option name.
+
+Add: Add a new record in the database
+Print: Print all records in the database
+Find: Find record(s) with a specified account number
+Delete: Delete existing records(s) from the database using the account number as a key
+Quit: Quit the program
+
+Enter the name of an option:
+prongs
+ERROR: Enter one of the menu options
+
+
+To pick an option, please type the option name.
+
+Add: Add a new record in the database
+Print: Print all records in the database
+Find: Find record(s) with a specified account number
+Delete: Delete existing records(s) from the database using the account number as a key
+Quit: Quit the program
+
+Enter the name of an option:
+pringles
+ERROR: Enter one of the menu options
+
+
+To pick an option, please type the option name.
+
+Add: Add a new record in the database
+Print: Print all records in the database
+Find: Find record(s) with a specified account number
+Delete: Delete existing records(s) from the database using the account number as a key
+Quit: Quit the program
+
+Enter the name of an option:
+print
+
+*** THIS IS IN DEBUG MODE ***
+
+*** When called printAllRecords prints all records in database ***
+*** Parameters: pointer to start of linked list of records ***
+
+
+To pick an option, please type the option name.
+
+Add: Add a new record in the database
+Print: Print all records in the database
+Find: Find record(s) with a specified account number
+Delete: Delete existing records(s) from the database using the account number as a key
+Quit: Quit the program
+
+Enter the name of an option:
+fan
+ERROR: Enter one of the menu options
+
+
+To pick an option, please type the option name.
+
+Add: Add a new record in the database
+Print: Print all records in the database
+Find: Find record(s) with a specified account number
+Delete: Delete existing records(s) from the database using the account number as a key
+Quit: Quit the program
+
+Enter the name of an option:
+ad  address
+ERROR: Enter one of the menu options
+
+
+To pick an option, please type the option name.
+
+Add: Add a new record in the database
+Print: Print all records in the database
+Find: Find record(s) with a specified account number
+Delete: Delete existing records(s) from the database using the account number as a key
+Quit: Quit the program
+
+Enter the name of an option:
+adam
+ERROR: Enter one of the menu options
+
+
+To pick an option, please type the option name.
+
+Add: Add a new record in the database
+Print: Print all records in the database
+Find: Find record(s) with a specified account number
+Delete: Delete existing records(s) from the database using the account number as a key
+Quit: Quit the program
+
+Enter the name of an option:
+quincyh
+ERROR: Enter one of the menu options
+
+
+To pick an option, please type the option name.
+
+Add: Add a new record in the database
+Print: Print all records in the database
+Find: Find record(s) with a specified account number
+Delete: Delete existing records(s) from the database using the account number as a key
+Quit: Quit the program
+
+Enter the name of an option:
+qu
+]0;camparo@uhx02:~/project2uhx02:/home/c/camparo/project2% ./[K[Kcat database.txt
+cat: database.txt: No such file or directory
+]0;camparo@uhx02:~/project2uhx02:/home/c/camparo/project2% ./project
+
+Database is empty.
+
+
+Pick one of the following options to add, print, find or delete bank Records.
+
+
+To pick an option, please type the option name.
+
+Add: Add a new record in the database
+Print: Print all records in the database
+Find: Find record(s) with a specified account number
+Delete: Delete existing records(s) from the database using the account number as a key
+Quit: Quit the program
+
+Enter the name of an option:
+pr
+
+These are all the records current in the database:
+
+Database is empty.
+
+
+To pick an option, please type the option name.
+
+Add: Add a new record in the database
+Print: Print all records in the database
+Find: Find record(s) with a specified account number
+Delete: Delete existing records(s) from the database using the account number as a key
+Quit: Quit the program
+
+Enter the name of an option:
+fi
+
+To find a record, please enter your account number:
+123123
+
+Database is empty.
+
+
+To pick an option, please type the option name.
+
+Add: Add a new record in the database
+Print: Print all records in the database
+Find: Find record(s) with a specified account number
+Delete: Delete existing records(s) from the database using the account number as a key
+Quit: Quit the program
+
+Enter the name of an option:
+del
+To delete your records please enter your account number:
+123123
+
+Database is Empty
+
+
+To pick an option, please type the option name.
+
+Add: Add a new record in the database
+Print: Print all records in the database
+Find: Find record(s) with a specified account number
+Delete: Delete existing records(s) from the database using the account number as a key
+Quit: Quit the program
+
+Enter the name of an option:
+aff
+ERROR: Enter one of the menu options
+
+
+To pick an option, please type the option name.
+
+Add: Add a new record in the database
+Print: Print all records in the database
+Find: Find record(s) with a specified account number
+Delete: Delete existing records(s) from the database using the account number as a key
+Quit: Quit the program
+
+Enter the name of an option:
+add   A
+To add a new record, please enter the account number:
+123123
+
+Next please enter your Given name and last name:
+Cole Amparo
+
+Last, please enter your address, and type * then press enter to confirm
+WARNING: Please make sure address is less than 80 charecters
+if address is over 80, charecters over the limit will be left off the record
+Kapolei
+Hawaii
+*
+
+
+Confirming information added to database:
+
+Account Number: 123123
+Name: Cole Amparo
+Address: 
+Kapolei
+Hawaii
+
+
+To pick an option, please type the option name.
+
+Add: Add a new record in the database
+Print: Print all records in the database
+Find: Find record(s) with a specified account number
+Delete: Delete existing records(s) from the database using the account number as a key
+Quit: Quit the program
+
+Enter the name of an option:
+add
+To add a new record, please enter the account number:
+1500
+
+Next please enter your Given name and last name:
+Bob Bobbity
+
+Last, please enter your address, and type * then press enter to confirm
+WARNING: Please make sure address is less than 80 charecters
+if address is over 80, charecters over the limit will be left off the record
+Bob St
+Bobland
+*
+
+
+Confirming information added to database:
+
+Account Number: 1500
+Name: Bob Bobbity
+Address: 
+Bob St
+Bobland
+
+
+To pick an option, please type the option name.
+
+Add: Add a new record in the database
+Print: Print all records in the database
+Find: Find record(s) with a specified account number
+Delete: Delete existing records(s) from the database using the account number as a key
+Quit: Quit the program
+
+Enter the name of an option:
+pr
+
+These are all the records current in the database:
+
+
+ALL RECORDS IN DATABASE
+
+
+Account Number: 123123
+Name: Cole Amparo
+Address: 
+Kapolei
+Hawaii
+
+Account Number: 1500
+Name: Bob Bobbity
+Address: 
+Bob St
+Bobland
+
+
+To pick an option, please type the option name.
+
+Add: Add a new record in the database
+Print: Print all records in the database
+Find: Find record(s) with a specified account number
+Delete: Delete existing records(s) from the database using the account number as a key
+Quit: Quit the program
+
+Enter the name of an option:
+add
+To add a new record, please enter the account number:
+15 000000
+
+Next please enter your Given name and last name:
+Ontop Thelist
+
+Last, please enter your address, and type * then press enter to confirm
+WARNING: Please make sure address is less than 80 charecters
+if address is over 80, charecters over the limit will be left off the record
+Above     cAL   Calci  l    Examp  le St.
+Example  
+*
+
+
+Confirming information added to database:
+
+Account Number: 1000000
+Name: Ontop Thelist
+Address: 
+Example St.
+Example
+
+
+To pick an option, please type the option name.
+
+Add: Add a new record in the database
+Print: Print all records in the database
+Find: Find record(s) with a specified account number
+Delete: Delete existing records(s) from the database using the account number as a key
+Quit: Quit the program
+
+Enter the name of an option:
+find 
+
+To find a record, please enter your account number:
+100000000
+
+A record(s) with the given account number is not in the database.
+
+
+To pick an option, please type the option name.
+
+Add: Add a new record in the database
+Print: Print all records in the database
+Find: Find record(s) with a specified account number
+Delete: Delete existing records(s) from the database using the account number as a key
+Quit: Quit the program
+
+Enter the name of an option:
+fi  123123
+ERROR: Enter one of the menu options
+
+
+To pick an option, please type the option name.
+
+Add: Add a new record in the database
+Print: Print all records in the database
+Find: Find record(s) with a specified account number
+Delete: Delete existing records(s) from the database using the account number as a key
+Quit: Quit the program
+
+Enter the name of an option:
+fin
+
+To find a record, please enter your account number:
+0123   -23    -234
+
+ERROR: Access code can't be negative, please enter an accetable code.
+1000000
+Record(s) in the database with account number 1000000:
+
+Account Number: 1000000
+Name: Ontop Thelist
+Address: 
+Example St.
+Example
+
+
+To pick an option, please type the option name.
+
+Add: Add a new record in the database
+Print: Print all records in the database
+Find: Find record(s) with a specified account number
+Delete: Delete existing records(s) from the database using the account number as a key
+Quit: Quit the program
+
+Enter the name of an option:
+delete
+To delete your records please enter your account number:
+123123
+
+The following data has been deleted:
+
+Account Number: 123123
+Name: Cole Amparo
+Address: 
+Kapolei
+Hawaii
+
+
+To pick an option, please type the option name.
+
+Add: Add a new record in the database
+Print: Print all records in the database
+Find: Find record(s) with a specified account number
+Delete: Delete existing records(s) from the database using the account number as a key
+Quit: Quit the program
+
+Enter the name of an option:
+p
+
+These are all the records current in the database:
+
+
+ALL RECORDS IN DATABASE
+
+
+Account Number: 1000000
+Name: Ontop Thelist
+Address: 
+Example St.
+Example
+
+Account Number: 1500
+Name: Bob Bobbity
+Address: 
+Bob St
+Bobland
+
+
+To pick an option, please type the option name.
+
+Add: Add a new record in the database
+Print: Print all records in the database
+Find: Find record(s) with a specified account number
+Delete: Delete existing records(s) from the database using the account number as a key
+Quit: Quit the program
+
+Enter the name of an option:
+qu
+]0;camparo@uhx02:~/project2uhx02:/home/c/camparo/project2% cat de[Katabase.txt
+1000000
+Ontop Thelist
+Example St.
+Example
+*
+1500
+Bob Bobbity
+Bob St
+Bobland
+*
+]0;camparo@uhx02:~/project2uhx02:/home/c/camparo/project2% exit
+exit
+
+Script done on Sat 05 Dec 2020 01:41:55 PM HST
